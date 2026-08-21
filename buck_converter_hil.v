@@ -1,6 +1,7 @@
 `timescale 1ns / 1ps
 
 module buck_converter_hil (
+    // Target FPGA: Eclypce Z7 (Digilent)
     input wire clk,
     input wire rst,
     input wire pwm,
